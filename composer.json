@@ -1,21 +1,21 @@
 {
-    "name": "mremi/contact-bundle",
+    "name": "skonsoft/contact-bundle",
     "type": "symfony-bundle",
     "description": "Implementation of a contact form for Symfony3",
     "keywords": ["Symfony3", "Symfony2", "contact", "form"],
-    "homepage": "https://github.com/mremi/ContactBundle",
+    "homepage": "https://github.com/skonsoft/ContactBundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Rémi Marseille",
-            "email": "marseille.remi@gmail.com"
+            "name": "Skonsoft INVENT",
+            "email": "contact@skonsoft.com"
         }
     ],
     "require": {
-        "php": ">=5.5.0",
+        "php": ">=5.5.7",
         "swiftmailer/swiftmailer": "~4.3|~5",
-        "symfony/form": "~2.8|~3.0",
-        "symfony/framework-bundle": "~2.8|~3.0",
+        "symfony/form": "~2.8|~3.1",
+        "symfony/framework-bundle": "~2.8|~3.1",
         "twig/twig": "~1.20|~2.0"
     },
     "require-dev": {
