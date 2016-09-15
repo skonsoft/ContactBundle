@@ -80,6 +80,7 @@ class TwigSwiftMailer implements MailerInterface
         $message = $this->createMessage()
             ->setSubject($subject ?: $contact->getSubject())
             ->setFrom($this->from ?: array($contact->getEmail() => $contact->getFullName()))
+            ->addReplyTo($contact->getEmail(), $contact->getFullName())
             ->setTo($this->to);
 
         if (!empty($htmlBody)) {
